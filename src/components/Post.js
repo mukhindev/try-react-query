@@ -1,7 +1,8 @@
 const Post = ({ id, title, body }) => (
   <div
     className="post
-    bg-white rounded-md shadow-xl p-4"
+    hover:bg-gray-50
+    bg-white rounded-md shadow-xl p-4 transition"
   >
     <h3
       className="post__title

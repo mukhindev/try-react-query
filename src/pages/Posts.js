@@ -3,17 +3,14 @@ import Preloader from '../components/Preloader';
 import Post from '../components/Post';
 
 const Posts = (props) => {
-  const { data, isLoading } = useFetchPosts();
-
-  if (isLoading) {
-    return (
-      <Preloader />
-    );
-  }
+  const { data = [], isLoading } = useFetchPosts();
 
   return (
-    <div className="postscontainer mx-auto p-8">
-      <h2 className="posts__title text-4xl font-extrabold mb-8">Posts</h2>
+    <div className="posts container mx-auto p-8">
+      <div className="posts__title-container flex items-center mb-8">
+        <h2 className="posts__title text-4xl font-extrabold">Posts</h2>
+        {isLoading && <Preloader className="ml-6" />}
+      </div>
       <section
         className="posts__grid
         grid grid-cols-1 md:grid-cols-2 gap-8"
