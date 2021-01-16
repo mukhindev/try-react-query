@@ -1,0 +1,13 @@
+.preloader {
+	display: block;
+	border: 2px solid transparent;
+	border-bottom-color: currentColor;
+	border-radius: 50%;
+	animation: spin .5s infinite linear;
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}

@@ -1,13 +1,8 @@
-import { useParams } from 'react-router-dom';
+const Post = ({ id, title, body }) => (
+  <div className="">
+    <h3 className="">{ title }</h3>
+    <p>{ body }</p>
+  </div>
+);
 
-const Posts = (props) => {
-  const { id } = useParams();
-
-  return (
-    <div className="">
-      <h2>Post ID: { id }</h2>
-    </div>
-  );
-};
-
-export default Posts;
+export default Post;
