@@ -1,12 +1,10 @@
-import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Posts from '../../pages/Posts/Posts';
-import PostById from '../../pages/PostById/PostById';
+import Posts from '../pages/Posts';
+import PostById from '../pages/PostById';
 
 function App() {
   return (
     <div className="app">
-      <h1>Try React Query</h1>
       <Switch>
 
         <Route path="/posts" exact>
