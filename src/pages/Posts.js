@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import { useFetchPosts } from '../hooks/posts';
 import Preloader from '../components/Preloader';
 import Post from '../components/Post';
 
-const Posts = (props) => {
+const Posts = () => {
   const { data = [], isLoading } = useFetchPosts();
 
   return (
@@ -15,13 +16,18 @@ const Posts = (props) => {
         className="posts__grid
         grid grid-cols-1 md:grid-cols-2 gap-8"
       >
-        { data?.map(({ id, title, body }) => (
-          <Post
-            key= { id }
-            id={ id }
-            title={ title }
-            body={ body }
-          />
+        { data.map(({ id, title, body }) => (
+          <Link
+            className="flex"
+            to={`/posts/${id}`}
+            key={ id }
+          >
+            <Post
+              id={ id }
+              title={ title }
+              body={ body }
+            />
+          </Link>
         )) }
       </section>
     </div>
