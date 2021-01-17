@@ -6,7 +6,8 @@
 - [x] Прелоадер (`isLoading`)
 - [x] Получить данные по id
 - [ ] Получить данные с параметром
-- [ ] Отправить данные (`useMutation`)
+- [x] Отправить данные (`useMutation`)
+- [ ] Отправить данные, обновив состояние
 
 CSS фреймворк — [tailwindcss](https://tailwindcss.com/)  
 Тестовое REST API — [jsonplaceholder](https://jsonplaceholder.typicode.com/)
