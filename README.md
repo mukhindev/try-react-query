@@ -1,6 +1,7 @@
 # try-react-query
 
-Тест библиотеки — [react-query](https://react-query.tanstack.com/)
+Тест библиотеки — [react-query](https://react-query.tanstack.com/)  
+Demo: https://mukhindev.github.io/try-react-query
 
 - [x] Получить данные (`useQuery`)
 - [x] Прелоадер (`isLoading`)
