@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mukhindev/try-react-query/static/css/main.63cb4945.chunk.css",
+    "main.js": "/mukhindev/try-react-query/static/js/main.db88cb35.chunk.js",
+    "main.js.map": "/mukhindev/try-react-query/static/js/main.db88cb35.chunk.js.map",
+    "runtime-main.js": "/mukhindev/try-react-query/static/js/runtime-main.ba91a289.js",
+    "runtime-main.js.map": "/mukhindev/try-react-query/static/js/runtime-main.ba91a289.js.map",
+    "static/js/2.4c2c586e.chunk.js": "/mukhindev/try-react-query/static/js/2.4c2c586e.chunk.js",
+    "static/js/2.4c2c586e.chunk.js.map": "/mukhindev/try-react-query/static/js/2.4c2c586e.chunk.js.map",
+    "index.html": "/mukhindev/try-react-query/index.html",
+    "static/css/main.63cb4945.chunk.css.map": "/mukhindev/try-react-query/static/css/main.63cb4945.chunk.css.map",
+    "static/js/2.4c2c586e.chunk.js.LICENSE.txt": "/mukhindev/try-react-query/static/js/2.4c2c586e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba91a289.js",
+    "static/js/2.4c2c586e.chunk.js",
+    "static/css/main.63cb4945.chunk.css",
+    "static/js/main.db88cb35.chunk.js"
+  ]
+}
